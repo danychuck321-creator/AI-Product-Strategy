@@ -21,11 +21,11 @@
 
 **What we're building, for whom, why now.**
 
-- **Product:**
-- **AI Value Archetype:**
-- **Vulnerability Scores:** Moat __/5 · Data __/5 · Platform __/5
-- **Top Risk:**
-- **Confidence:** H / M / L
+- **Product:** Commercial Land Reconciliation Tool 
+- **AI Value Archetype:** Automator
+- **Vulnerability Scores:** Moat _3_/5 · Data _3_/5 · Platform _2_/5
+- **Top Risk:** Workflow is not proprietary other than the contracts itself which dictate how royalties are calculated
+- **Confidence:** M 
 - **Prototype:** [link]
 - **Kill Criteria:**
 
