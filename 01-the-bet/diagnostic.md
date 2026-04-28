@@ -47,9 +47,9 @@ Own Scrutinity -> If I expose the contracts to OPEN AI, then can also replicate 
 >
 > **3-sentence memo:**
 >
-> 1. Attack:
-> 2. Wedge:
-> 3. Why users switch:
+> 1. Attack: Model specific for reconciliation processes/back office support work
+> 2. Wedge: Readily available on existing enterprise platforms to be used
+> 3. Why users switch: More sustainable option, less costs, not requiring IT sustainment possibly
 
 ---
 
