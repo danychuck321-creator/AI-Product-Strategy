@@ -3,7 +3,7 @@
 ## Product
 <!-- Name the product you're diagnosing. Real product at your company — not a hypothetical. -->
 
-**Product:** Commercial Land Reconciliation Process
+**Product:** SafetyPal
 **Your Role:** Product Manager
 
 ---
@@ -20,9 +20,11 @@ The tool relies on potentially bespoke workflows to the company and also nuance 
 
 ---
 
-### Data Advantage — _3.5_/5
+### Data Advantage — _2_/5
 *Proprietary signal that compounds with usage. What do you see that OpenAI doesn't?*
 Once the tool is running reliably and proper data is captured in terms where people are drilling on company leases and farmed in land, the insights for commercial needs and purposes are invaluable. We can also leverage it to detect trends or patterns to help inform and navigate commercial activity dealing with Land. I.e. if peers are drilling substantially on our lands, and adjacent, perhaps we ought to purchase land to make it one piece of contiguous piece for them
+
+Own Scrutinity -> If I expose the contracts to OPEN AI, then can also replicate the insights and findings so long as they have access and exposure to the data
 
 **Score rationale:**
 
