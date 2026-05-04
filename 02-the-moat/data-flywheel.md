@@ -2,29 +2,30 @@
 
 ## Flywheel Loops
 
-### Loop 1: Usage → Signal
-**Score: __/5**
-*How does usage generate proprietary data?*
+### Loop 1: Correction Loop
+**Score: 1/5**
+Things that can go wrong in understanding the royalties statements (found online, publicly accessible) which would be human corrected to reflect correct metrics. 
 
-### Loop 2: Signal → Model
-**Score: __/5**
-*How does that data improve the model?*
+### Loop 2: Preference Loop
+**Score: 1/5**
+No personalization for team or individuals specifically, maybe information around surrounding footprint of existing well activity to focus on and concentrate on tactical / strategic opportunities. But this could be easily accessed online through IHS or Petrinex data sources 
 
-### Loop 3: Model → Experience
-**Score: __/5**
-*How does the better model improve UX?*
+### Loop 3: Domain Context Loop
+**Score: 2/5**
+Information in this domain can assist with M&A activities for Land value and potential future transactions
 
-### Loop 4: Experience → Usage
-**Score: __/5**
-*How does better UX drive more usage?*
+### Loop 4: Network Loop
+**Score: 1/5**
+Internal usage does not improve; however, new operator information improves over time providing valuable insights on the data itself
 
-**Total Flywheel Score: __/20**
-**Weakest Loop:**
-**Fix for weakest loop:**
+
+Total Flywheel Score: 5/20
+Weakest Loop: Network Loop (choose this one for now)
+Fix for weakest loop: Make it user friendly as existing processes and interfaces are very disparate and convoluted
 
 ---
 
-## Competitive Positioning
+## Competitive Positioning -> DO NOT DO THIS
 
 **Axis X:**
 **Axis Y:**
