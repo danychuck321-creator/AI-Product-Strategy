@@ -25,7 +25,7 @@ Fix for weakest loop: Make it user friendly as existing processes and interfaces
 
 ---
 
-## Competitive Positioning -> DO NOT DO THIS
+## Competitive Positioning -> Can do this-> just not enough time in the class to complete, that is why its left in there...
 
 **Axis X:**
 **Axis Y:**
@@ -43,6 +43,9 @@ Fix for weakest loop: Make it user friendly as existing processes and interfaces
 
 *Your partner played the Big Tech attacker. What was their plan to kill you?*
 
-**Attacker:**
-**Attack vector:**
-**Your defense:**
+**Attacker:** Self analysis 
+**Attack vector:**  Domain Context Loop
+  - This domian is pretty straightforward, most of the data with the exception of what your joint venture agreements mention does not add uniqueness to the product other than to get the royalty payments correct
+
+**Your defense:** 
+- However, the join venture agreements with operators drilling on our lands gives the company unique positioning of understanding commercial activity around them from which they can analyze and leverage to inform and support new activitiy. For example, if it is known that an existing competitor has been agressively wanting to operate on our leases and potentially would like to adjacent to one we own, but does not currently have the right too, we can analyze this and understand this strong desire from which we can negotiate from a stronger position of royalties.
