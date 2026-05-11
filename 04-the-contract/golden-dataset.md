@@ -10,6 +10,20 @@
 | 4 | | | Y/N | rule / LLM |
 | 5 | | | Y/N | rule / LLM |
 
+Golden Dataset — Module 4
+
+Test cases:
+  1. Edge: N · Judge: rule — IN: Reconciliation of new operator and or new well on leased lands, but not currently in the system → OUT: Med Risk: System warning that operator and or new well are not in the system, thereby cannot reconcile 
+  2. Edge: N · Judge: both — IN: Incorrect parsing of critical royalty data into structured format such as Total royalties owed, incorrect agreement factors, or wells stated  → OUT: High Risk: Correctly parsed information from royalty statement
+  3. Edge: N · Judge: both — IN: System analytics usage highlights low usage of ~30%, with negative internal sentiment captured through the feedback form  → OUT: High Risk: Poor system usage highlighting a need to work on either change management or the system is outputting a correct reconciliation
+  4. Edge: N · Judge: LLM — IN: System reconciles a royalty statement incorrectly, where it is a false positive. → OUT: High Risk: Doubecheck royalty statements are correct
+
+Dataset health
+- Total: 4
+- Edge cases: 0 (0.0%)
+- Judge mix: 25% rule / 25% LLM / 50% both
+
+
 **Adversarial rows included:** __
 **Coverage gaps identified by partner:**
 
