@@ -10,6 +10,8 @@
 | 4 | | | Y/N | rule / LLM |
 | 5 | | | Y/N | rule / LLM |
 
+
+
 Golden Dataset — Module 4
 
 Test cases:
@@ -34,6 +36,24 @@ Dataset health
 **High confidence (>90%):**
 **Medium confidence (70-90%):**
 **Low confidence (<70%):**
+
+## Confidence UX Design
+
+**Approach:** human-in-loop trigger / show uncertainty
+
+**Confident (>90%):** _(not set)_
+
+**Uncertain (50-90%):** _(not set)_
+
+**Not confident (<50%):** Don't process a low confidence scored Royalty statement as it is the basis for the reconciliation process
+
+**User control surface:** 
+
+- Users see AI reasoning / drivers
+- Users correct & override outputs
+- Corrections feed back into the model / dataset
+- Users adjust the confidence threshold _(not yet)_
+
 
 **User control surface:**
 
