@@ -39,6 +39,40 @@ Dataset health
 - Corrections feed back into the model / dataset
 - Users adjust the confidence threshold _(not yet)_
 
+## Confidence UX Design
+
+**Approach:** show uncertainty
+
+**Confident (>90%):** High reconciliation of royalty statement confidence
+
+**Uncertain (50-90%):** _(not set)_
+
+**Not confident (<50%):** _(not set)_
+
+**User control surface:** 
+
+- Users see AI reasoning / drivers
+- Users adjust the confidence threshold _(not yet)_
+- Users correct & override outputs _(not yet)_
+- Corrections feed back into the model / dataset _(not yet)_
+
+## Confidence UX Design
+
+**Approach:** show uncertainty / human-in-loop trigger
+
+**Confident (>90%):** _(not set)_
+
+**Uncertain (50-90%):** Show areas of the reconciled royalty statement that may be incorrect and request that user checks manually.
+
+**Not confident (<50%):** _(not set)_
+
+**User control surface:** 
+
+- Users see AI reasoning / drivers
+- Users correct & override outputs
+- Corrections feed back into the model / dataset
+- Users adjust the confidence threshold _(not yet)_
+
 
 
 ## Reliability Contract
