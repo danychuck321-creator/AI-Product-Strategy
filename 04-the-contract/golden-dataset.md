@@ -55,7 +55,6 @@ Dataset health
 - Users adjust the confidence threshold _(not yet)_
 
 
-**User control surface:**
 
 ## Reliability Contract
 
