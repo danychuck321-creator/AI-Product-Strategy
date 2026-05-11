@@ -34,17 +34,17 @@ _____
 
 ## Pricing Model
 
-**Current pricing:**
-**Proposed AI pricing:**
-**Model:** seat-based / usage-based / outcome-based / hybrid
+**Current pricing:** Internal cost/benefit capture, so no current pricing
+**Proposed AI pricing:** Pricing based on each successful reconciliation
+**Model:** Outcome-based
 
 ## Stress Tests
 
 | Scenario | Impact on Margin | Response |
 |----------|-----------------|----------|
-| Inference costs 3x | | |
-| Heaviest segment doubles | | |
-| Model provider raises prices 50% | | |
+| Inference costs 3x |10% |switch to competing models that are not as |
+| Heaviest segment doubles |none |outcome based, so each successful reconciled royalty statemetn correlates with processing a respective statement |
+| Model provider raises prices 50% |~10% | Transition to another LLM that can read and parse the invoice data|
 
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
