@@ -61,18 +61,20 @@ Dataset health
 
 
 
-
 ## Reliability Contract
 
 | Metric | Target | Measurement | Alert Threshold |
 |--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
+| Accuracy | 92 | Monthly timed when new invoices come in (asynchronous to actual production needs, mid month) - 50 unique invoices/operators - LLM as a judge | <90 → route to human review queue |
+| Hallucination rate | <1% | Monthly timed when new invoices come in (asynchronous to actual production needs, mid month) - 50 invoices - false positives of reconciled invoices for month end | >1% → auto-rollback to last good model |
+| Latency (p95) | <5mins | Can be viewed as a batch job reconciled process done within a day at most. | >1 hour → page on-call |
+| Drift velocity | <0.5% / month | 3 month rolling accuracy trend as the cadence for new invoices to come in is monthly | > 1% / month → trigger gold-set audit |
 
 ## HITL Architecture
-<!-- When does a human step in? What's the escalation path? -->
 
-## Red-Team Findings
-*What failure mode did your partner find that you missed?*
+**Trigger:** Confidence is less than 90%
+
+**Reviewer:** Commercial Land Analyst in India
+
+**Feedback loop:** Reviewer corrections feedback into the model that parses the unstructured invoice data into structured data
+
