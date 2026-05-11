@@ -26,6 +26,7 @@ Dataset health
 
 **Approach:** human-in-loop trigger / show uncertainty
 **Not confident (<50%):** Don't process a low confidence scored Royalty statement as it is the basis for the reconciliation process
+
 **User control surface:** 
 
 - Users see AI reasoning / drivers
@@ -37,6 +38,7 @@ Dataset health
 
 **Approach:** show uncertainty / human-in-loop trigger
 **Uncertain (50-90%):** Show areas of the reconciled royalty statement that may be incorrect and request that user checks manually.
+
 **User control surface:** 
 
 - Users see AI reasoning / drivers
@@ -49,6 +51,7 @@ Dataset health
 
 **Approach:** show uncertainty
 **Confident (>90%):** High reconciliation of royalty statement confidence
+
 **User control surface:** 
 
 - Users see AI reasoning / drivers
