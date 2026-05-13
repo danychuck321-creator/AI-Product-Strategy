@@ -35,12 +35,32 @@ Drafting an email to an operator on outstanding or overpayment of royalties - ca
 
 ## Shadow AI Audit
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+Shadow AI Audit — Module 5
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+## Discover
+- Databricks Genie | Enterprise AI | users: 50 | access: Write | approved: No
+- Co-Pilot | End User Productivity | users: 60000 | access: Read | approved: Yes
+- Snowflake CortexAI | Upstream Enterprise Data | users: 100 | access: Read | approved: Yes
+- Claude Code | Personal end user devices | users: 50 | access: None | approved: No
+
+## Risk
+- Total shadow tools: 4
+- Unapproved + Write/Admin: 1
+- Risk level: High
+
+## Action Plan
+### Consolidate
+DataBricks Genie replaced with SnowFlake CortexAI in the interim
+
+### Approve
+DataBricks Geneie - Enterprise AI - Monitor Data catalog
+
+### Block
+Claude Code -> potential dark code 
+
+## Policy Draft
+Based on your audit: 4 tools discovered, 2 require action.
+
+Recommended policy: Block unapproved tools with write/admin access immediately, run a DLP review, and require executive sign-off before any new AI tool handles customer or employee data.
+
+Consolidate redundant tools, document owners and data classes, and align procurement with security review.
