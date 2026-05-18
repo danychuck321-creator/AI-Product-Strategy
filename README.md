@@ -26,7 +26,7 @@
 - **Vulnerability Scores:**  Moat 3/5 · Data 4/5 · Platform 2/5
 - **Top Risk:** Accessing the required operator agreements terms and conditions held within the propriertary CS Land system, that the vendor does not give us the schema
 - **Confidence:**  M 
-- **Prototype:**
+- **Prototype:** Reconcile a royalty statement manually with the correct data automatically inserted
 - **Kill Criteria:** Attack: Model specific for reconciliation processes/back office support work. Wedge: Readily available on existing enterprise platforms to be used. Why users switch: More sustainable option, less costs, not requiring IT sustainment possibly
 
 → Details: [`01-the-bet/`](01-the-bet/)
@@ -37,11 +37,11 @@
 
 **Why this won't get copied in 6 months.**
 
-- **Data Flywheel Score:**
-- **Weakest Loop:**
-- **Top Encroachment Threat:**
-- **Encroachment Defense:**
-- **Vendor Portability:** _(add: Ready / Partial / Locked)_
+- **Data Flywheel Score:** 5/20
+- **Weakest Loop:** network loop: Internal usage does not improve; however, new operator information improves over time providing valuable insights on the data itself
+- **Top Encroachment Threat:** This domian is pretty straightforward, most of the data with the exception of what your joint venture agreements mention does not add uniqueness to the product other than to get the royalty payments correct
+- **Encroachment Defense:** However, the join venture agreements with operators drilling on our lands gives the company unique positioning of understanding commercial activity around them from which they can analyze and leverage to inform and support new activitiy. For example, if it is known that an existing competitor has been agressively wanting to operate on our leases and potentially would like to adjacent to one we own, but does not currently have the right too, we can analyze this and understand this strong desire from which we can negotiate from a stronger position of royalties.
+- **Vendor Portability:** Partial
 
 → Details: [`02-the-moat/`](02-the-moat/)
 
