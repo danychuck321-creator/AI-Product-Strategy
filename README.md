@@ -9,7 +9,7 @@
 | Component | Module | Status | Key Artifact |
 |-----------|--------|--------|-------------|
 | **The Bet** | M1 | [x] | `01-the-bet/` |
-| **The Moat** | M2 | [ ] | `02-the-moat/` |
+| **The Moat** | M2 | [x] | `02-the-moat/` |
 | **The Margin** | M3 | [x] | `03-the-margin/` |
 | **The Contract** | M4 | [x] | `04-the-contract/` |
 | **The Guardrails** | M5 | [x] | `05-the-guardrails/` |
@@ -22,12 +22,12 @@
 **What we're building, for whom, why now.**
 
 - **Product:** Commercial Land Reconciliation 
-- **AI Value Archetype:** _(add: Automator / Copilot / Oracle / Creator / Orchestrator)_
-- **Vulnerability Scores:** _(add: Moat _/5 · Data _/5 · Platform _/5)_
-- **Top Risk:**
-- **Confidence:** _(add: H / M / L)_
+- **AI Value Archetype:** Automator
+- **Vulnerability Scores:**  Moat 3/5 · Data 4/5 · Platform 2/5
+- **Top Risk:** Accessing the required operator agreements terms and conditions held within the propriertary CS Land system, that the vendor does not give us the schema
+- **Confidence:**  M 
 - **Prototype:**
-- **Kill Criteria:**
+- **Kill Criteria:** Attack: Model specific for reconciliation processes/back office support work. Wedge: Readily available on existing enterprise platforms to be used. Why users switch: More sustainable option, less costs, not requiring IT sustainment possibly
 
 → Details: [`01-the-bet/`](01-the-bet/)
 
