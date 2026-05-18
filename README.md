@@ -1,4 +1,4 @@
-# SafetyPal
+# Commercial Land Reconciliation 
 
 > A living strategy built across 6 sessions. Each module adds one component. By Module 6, this repo IS the strategy — version-controlled, board-ready, portable.
 
@@ -21,7 +21,7 @@
 
 **What we're building, for whom, why now.**
 
-- **Product:** SafetyPal
+- **Product:** Commercial Land Reconciliation 
 - **AI Value Archetype:** _(add: Automator / Copilot / Oracle / Creator / Orchestrator)_
 - **Vulnerability Scores:** _(add: Moat _/5 · Data _/5 · Platform _/5)_
 - **Top Risk:**
