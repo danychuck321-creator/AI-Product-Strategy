@@ -51,14 +51,18 @@
 
 **Will this make money or bleed it?**
 
-- **Gross Margin (current):**
-- **Gross Margin (AI-adjusted):**
+- **Gross Margin (current):** N/A (Currently operates as an internal cost center; negative margin due to fully-loaded human OPEX and manual spreadsheet hours). 
+- **Gross Margin (AI-adjusted):** Target 85%+ (Software-like margins achieved by reducing the unit cost to pure compute and fractional human-in-the-loop time). 
 - **Pricing Model:** Outcome-based
-- **Pricing Today → Tomorrow:** Internal cost/benefit capture, so no current pricing → Pricing based on each successful reconciliation
-- **Total AI COGS / unit:**
-- **Cascading Strategy:** Triage: **Frontier model:**; frontier: **Routing rule:**; ratio ## Pricing Model
-- **Net Margin Shift:**
-- **Break-even at:**
+- **Pricing Today → Tomorrow:** Internal cost/benefit capture, so no current pricing → Pricing based on each successful reconciliation (e.g., internal chargeback or calculated value-add of $40 per successful reconciliation).
+- **Total AI COGS / unit:** ~$1.00 per reconciliation (Calculated as $149.50 total monthly AI infrastructure/HITL costs divided by an estimated 150 complex statements per user)
+- **Cascading Strategy:**
+- 	• Triage: Claude 3 Haiku / GPT-4o-mini
+	• Frontier model: Claude 3.5 Sonnet / GPT-4o
+	• Routing rule: Default all statements to the Triage model. Route to the Frontier model ONLY IF: (1) Extraction confidence drops below 85%, (2) tables span more than 3 pages, or (3) the operator is flagged as "adversarial".
+	• Ratio: 65% Triage / 35% Frontier. 
+- **Net Margin Shift:** Transforming a pure operational expense (manual labor) into a high-leverage digital asset. By dropping the cost of reconciliation from ~$50+ in human time to ~$1.00 in compute, the net margin shift is fundamentally transformative for the back office.
+- **Break-even at:** ~6,250 successful reconciliations. (Assuming the $150,000 MVP build cost from your board pitch, divided by an estimated $24 of net value captured/saved per automated reconciliation).
 
 → Details: [`03-the-margin/`](03-the-margin/)
 
