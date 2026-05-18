@@ -17,20 +17,26 @@ _____
 
 | Cost Category | Per-User/Month | Notes |
 |--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
-| **Total AI COGS** | | |
+| Inference (primary model) | $35.00|Frontier model usage: Assuming ~20k input tokens/statement for dense, multi-page financial tables. Accounts for high-cost visual/OCR token usage. |
+| Inference (cascading/triage) |$4.50 |Fast/cheap model usage: Initial document classification, simple data extraction (dates, operator names), and routing logic. |
+| Infrastructure |$18.00 | Vector database indexing (for the JV agreement RAG pipeline), LangGraph/orchestration compute, and secure API gateways.|
+| Data/storage |$7.00 |Blob storage for original unstructured PDFs, structured JSON outputs, and embedding storage for the Golden Dataset. |
+| Human-in-the-loop |$85.00 |Internal cost representation: Assuming 15% of statements trigger the <90% confidence threshold, requiring ~10 minutes of manual Land Analyst correction time. |
+| **Total AI COGS** |$149.50 |This is your baseline COGS per seat to benchmark against your outcome-based pricing model. |
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
 
-**Triage model:**
-**Frontier model:**
-**Routing rule:**
-**Expected cascade ratio:**
+Triage model: Claude 3 Haiku / GPT-4o-mini
+Frontier model: Claude 3.5 Sonnet / GPT-4o
+Routing rule: All inbound statements pass through the Triage model first. Route to the Frontier model ONLY IF:
+
+The Triage model's extraction confidence score drops below 85%.
+
+The document contains nested, unstructured royalty tables spanning more than 3 pages.
+
+The operator is flagged in the system as "adversarial" or uses heavily non-standard/handwritten statement formats.
+Expected cascade ratio: 65% Triage / 35% Frontier (This ratio is critical; if the Frontier model handles more than 40% of the volume, your inference costs will begin to destroy the gross margin of your outcome-based pricing).
 
 ## Pricing Model
 
