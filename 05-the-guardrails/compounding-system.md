@@ -5,7 +5,7 @@
 | Loop | Input | Output | Compounds? | Status |
 |------|-------|--------|-----------|--------|
 | Recursive Learning | Land Analyst corrections for reconciled royalties | Update the golden record set, which is the royalty formula for a particular operator and well combination | Y | missing |
-| Cross-Domain Transfer | Updated royalty values for operators drilling on leased and farmed in land | Updated royalty values for operators drilling on leased and farmed in land | Y | missing |
+| Cross-Domain Transfer | Updated royalty revenue and spatial data for operators drilling on leased and farmed in land | Commercial intelligence that may be used for land sales, purchases and adjacent transactions | Y | missing |
 | Network Intelligence | Bad actors (i.e. operators that underpay) | Analyze bad actors to deduce which operators the company needs to focus on or stop doing business with | Y | missing |
 
 
