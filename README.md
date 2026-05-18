@@ -69,7 +69,7 @@
 **Why users will trust a probabilistic system.**
 
 - **Reliability Target:** 92
-- **Golden Dataset:** 5 rows, __ adversarial
+- **Golden Dataset:** 500 rows, __ adversarial
 - **Confidence UX:** human-in-loop trigger / show uncertainty
 - **HITL Architecture:** **Trigger:** Confidence is less than 90%
 - **Failure Mode Coverage:** ## Confidence UX Design
