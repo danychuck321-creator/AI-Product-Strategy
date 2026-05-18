@@ -7,23 +7,25 @@
 
 | Initiative | Metric | Confidence |
 |-----------|--------|-----------|
-| | | H / M / L |
-| | | H / M / L |
+|Create golden data record set correctly processed royalty statements|The Contract|H|
+|Create royalty formula for reconciliation and test|The Bet|H|
+|Create golden data record set correctly reconciled royalty statements|The Contract|H|
 
 ### Horizon 2 — Next (3-9 months)
 *Bets. Requires new capabilities or integrations.*
 
 | Initiative | Metric | Confidence |
 |-----------|--------|-----------|
-| | | H / M / L |
-| | | H / M / L |
+| Create MVP that manages the workflow of reconciling the royalty statements| The Bet| M |
+|Reconciled royalty statement redlines and correction | The Guardrails| M|
 
 ### Horizon 3 — Bet (9-18 months)
 *Moonshots. High uncertainty, high potential.*
 
 | Initiative | Metric | Confidence |
 |-----------|--------|-----------|
-| | | H / M / L |
+|Analysis of corrected royalty statements |The Moat |  L |
+|Monthly agentic workflow review|The Guardrails|M|
 
 ## Board Pitch
 
