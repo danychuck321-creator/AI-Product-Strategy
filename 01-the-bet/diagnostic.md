@@ -53,7 +53,7 @@ Once the tool is running reliably and proper data is captured in terms where peo
 ---
 
 ## Top Vulnerability
-<!-- One line: what's the single biggest strategic risk? -->
+Accessing the required operator agreements terms and conditions held within the propriertary CS Land system, that the vendor does not give us the schema
 
 ## Confidence Level
-<!-- H / M / L — how confident are you in this bet after the diagnostic? -->
+M 
